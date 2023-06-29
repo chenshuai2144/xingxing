@@ -5,8 +5,6 @@ export const getBuildConfig = () => {
     );
   }
 
- 
-
   return {
     commitId: "latest",
     buildMode: process.env.BUILD_MODE ?? "standalone",
